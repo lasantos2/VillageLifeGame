@@ -7,6 +7,7 @@
 #include "VillagerAIController.generated.h"
 
 class UBehaviorTree;
+
 /**
  * 
  */
@@ -22,4 +23,5 @@ protected:
 public:
 	UPROPERTY(EditDefaultsOnly, Category = "AI")
 	UBehaviorTree* BehaviorTree;
+
 };
